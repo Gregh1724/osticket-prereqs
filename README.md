@@ -17,33 +17,33 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Connect to your Virtual Machine with Remote Desktop
-- Install / Enable IIS in Windows
-- Install Web Platform Installer
-- Install osTicket v1.15.8
-- Download and Install HeidiSQL
-- Created database for "osTicket
-- Clean up 
-- Change File Permissions
+- 1. Create a Virtual Machine and connect it with Remote Desktop
+- 2. Install / Enable IIS in Windows
+- 3. Install Web Platform Installer
+- 4. Install osTicket v1.15.8
+- 5. Download and Install HeidiSQL
+- 6. Created database for "osTicket
+- 7. Clean up 
+- 8. Change File Permissions
 
 <h2>Installation Steps</h2>
 
-   >**Note**: Create a Windows 10 Virtual Machine with 2 or 4 virtual CPUS to ensure that you are not troubled with hiccups  and slow movement throughout the lab.
-Allow the VM to create a new Vnet which should be done by default.
+   >**Note**: Create a Windows 10 Virtual Machine with 2 or 4 virtual CPUS to ensure that you are not troubled with slow movement throughout the lab.
+The VM should create a new Vnet which should be done by default.
 
 We can do a quick search for `Virtual Machine` and as we create the virtual machine, we will have the option to create the Resource Group. Here we select `Create New` to name the name the Resource Group 'RG-osTicket' and build out the Virtual Machine (VM) with the provided settings pictured (below). 
 
-<p align="center"><img src="https://i.imgur.com/jz0e59n.png" height="70%" width="70%" alt="image of vm settings"/> </p>
+<p align="center"><img src="https://i.imgur.com/2lYbPRG.png" height="70%" width="70%" alt="image of vm settings"/> </p>
 
    >**Note**: Be sure to check the box recognizing 'I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights.' or else you will receive a validation error message when you choose to 'Review + Create'.
     
 <p align="center">
-<img src="https://i.imgur.com/yFq2KcG.png" height="70%" width="70%" alt="image of vm username password"/> </p>
+<img src="https://i.imgur.com/nx6H4JR.png" height="70%" width="70%" alt="image of vm username password"/> </p>
 
 We will need connect to our Virtual Machine with Remote Desktop using the VM's `public IP address`. 
 
 <p align="center">
-<img src="https://i.imgur.com/DGOWrS5.png" height="80%" width="80%" alt="image of public IP address"/>
+<img src="https://i.imgur.com/oTdn0gM.png" height="80%" width="80%" alt="image of public IP address"/>
 </p>
 
 <br />
@@ -52,7 +52,7 @@ To connect to the virtual machine, we search on the local machine for 'Remote De
 
 
 <p align="center">
-<img src="https://i.imgur.com/06af4yH.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ex5uPiw.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 
 <br/>
@@ -235,3 +235,5 @@ Set Permission to "`Read`" only can be acheived by choosing to right-click on '`
  <img src="https://i.imgur.com/R11rIMd.png"  height="65%" width="65%" alt="read-only allow is shown for osticketcong file"/>
  </p>
  <br/>
+
+ 
