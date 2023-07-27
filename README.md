@@ -235,5 +235,14 @@ Set Permission to "`Read`" only can be acheived by choosing to right-click on '`
  <img src="https://i.imgur.com/R11rIMd.png"  height="65%" width="65%" alt="read-only allow is shown for osticketcong file"/>
  </p>
  <br/>
+ The tasks have been complete!
+ </p>
+ <p align="center">
+ <img src="https://i.imgur.com/SBAktPF.png"  height="65%" width="65%" alt="read-only allow is shown for osticketcong file"/>
+ </p>
+ </p>
+ <p align="center">
+ <img src="https:"https://i.imgur.com/Vszfd47.png"  height="65%" width="65%" alt="read-only allow is shown for osticketcong file"/>
+ </p>
 
  
